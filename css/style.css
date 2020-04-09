@@ -17,7 +17,7 @@
 .item {
   position: relative;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /* Fine Singolo Prodotto */
 
@@ -26,9 +26,13 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding: 2px;
+  width: 35px;
+  text-align: center;
 }
-
+.style {
+  font-family: 'Cookie', cursive;
+  font-size: 20px;
+}
 .high {
   background: green;
 }
