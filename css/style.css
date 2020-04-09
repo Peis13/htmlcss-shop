@@ -15,11 +15,9 @@
 
 /* Singolo Prodotto */
 .item {
-  /* height: 372px;
-  width: 300px; */
+  position: relative;
   display: inline-block;
   margin-bottom: 20px;
-  position: relative;
 }
 /* Fine Singolo Prodotto */
 
@@ -37,4 +35,19 @@
 .low {
   background: red;
 }
-/* Scontistica */
+/* Fine Scontistica */
+
+/* Cuoricino */
+.wish {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  display: none;
+}
+.item:hover .wish {
+  display: block;
+}
+/* Fine Cuoricino */
