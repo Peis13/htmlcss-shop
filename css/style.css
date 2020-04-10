@@ -44,14 +44,16 @@
 /* Cuoricino */
 .item .wish {
   position: absolute;
+  right: 150px;
   bottom: 10px;
-  width: 100%;
-  text-align: center;
-  color: red;
   font-size: 30px;
   display: none;
+  cursor: pointer;
 }
 .item:hover .wish {
   display: block;
+}
+.wish:hover {
+  color: red;
 }
 /* Fine Cuoricino */
